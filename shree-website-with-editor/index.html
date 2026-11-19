@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#001B59">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:title" content="Shree Enterprises | EPC Turnkey Projects & Water Solutions">
+<meta property="og:description" content="Fish meal & fish oil EPC plants and complete water treatment: ETP, STP, WTP, UF, RO and desalination. Chennai.">
+<meta property="og:image" content="img/automated-stp.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23001B59'/%3E%3Ctext x='14' y='46' font-family='Arial' font-weight='800' font-size='40' fill='white'%3ES%3C/text%3E%3Crect x='42' y='16' width='8' height='32' rx='2' fill='%2385DC4F'/%3E%3C/svg%3E">
+<title>Shree Enterprises | EPC Turnkey Projects & Water Solutions</title>
+<meta name="description" content="Shree Enterprises, Chennai: EPC turnkey fish meal & fish oil plants and complete water & wastewater treatment: ETP, STP, WTP, UF, RO and desalination.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#001B59; --navy-2:#00134a; --navy-3:#0a2a78;
+  --lime:#85DC4F; --lime-soft:rgba(133,220,79,.14);
+  --ink:#020817; --muted:#5b6478; --line:#e3e8f2; --chip:#e9edf7; --panel:#ffffff;
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Barlow,system-ui,sans-serif;background:var(--navy);color:var(--ink);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+
+/* NAV */
+.nav{position:sticky;top:0;padding-top:env(safe-area-inset-top);z-index:50;background:rgba(0,27,89,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{display:flex;align-items:center;gap:10px;color:#fff}
+.logo b{font-size:26px;font-weight:800;letter-spacing:-.5px;display:flex;align-items:center}
+.logo b i{display:inline-block;width:7px;height:24px;background:var(--lime);border-radius:2px;margin-left:3px}
+.logo span{font-size:18px;font-weight:400;opacity:.85}
+.links{display:flex;gap:26px;align-items:center}
+.links a{color:#fff;font-size:16px;font-weight:500;opacity:.92;transition:.2s}
+.links a:hover{color:var(--lime)}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:inherit;font-weight:600;font-size:15px;border:0;cursor:pointer;border-radius:10px;padding:10px 18px;transition:.2s}
+.btn-lime{background:var(--lime);color:var(--navy)}
+.btn-lime:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--navy);border:1px solid rgba(133,220,79,.55)}
+.btn-ghost.light{color:#fff}
+.burger{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer}
+
+
+/* SECTION TABS */
+.tabs{position:sticky;top:66px;z-index:45;background:rgba(0,27,89,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.tabs .wrap{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-top:8px;padding-bottom:8px}
+.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{flex:none;display:flex;align-items:center;gap:7px;color:#c9d3ee;font-size:15px;font-weight:600;padding:8px 14px;border-radius:10px;white-space:nowrap;transition:.2s;border:1px solid transparent}
+.tab svg{opacity:.8}
+.tab:hover{color:#fff;background:rgba(255,255,255,.07)}
+.tab.on{background:var(--lime);color:var(--navy)}
+.tab.on svg{opacity:1}
+section[id],main[id]{scroll-margin-top:130px}
+
+/* HERO */
+.hero{margin:14px 0 0;border-radius:var(--r-lg);overflow:hidden;position:relative;min-height:600px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;background:var(--navy-3) center/cover}
+.hero-in{padding:70px 20px;max-width:880px;width:100%}
+.hello{font-size:30px;font-weight:700;margin-bottom:6px}
+.hello em{font-style:normal;color:var(--lime)}
+.hero h1{font-size:46px;line-height:1.12;font-weight:700;letter-spacing:-.5px}
+.hero p.sub{margin:14px auto 30px;opacity:.85;font-size:18px;max-width:640px}
+.brief{background:rgba(255,255,255,.14);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:16px;text-align:left}
+.brief-row{display:flex;gap:10px;align-items:flex-start}
+.brief textarea{flex:1;background:transparent;border:0;outline:0;color:#fff;font-family:inherit;font-size:18px;resize:none;height:76px}
+.brief textarea::placeholder{color:rgba(255,255,255,.75)}
+.brief-foot{display:flex;justify-content:space-between;align-items:center;margin-top:6px;gap:10px;flex-wrap:wrap}
+.div-toggle{display:flex;background:rgba(0,0,0,.18);border-radius:10px;padding:3px}
+.div-toggle button{background:none;border:0;color:#fff;font-family:inherit;font-size:14px;font-weight:600;padding:7px 12px;border-radius:8px;cursor:pointer;opacity:.8}
+.div-toggle button.on{background:#fff;color:var(--navy);opacity:1}
+.send{width:42px;height:42px;border-radius:12px;background:var(--navy);display:grid;place-items:center;border:0;cursor:pointer;color:#fff}
+.send:hover{background:var(--navy-3)}
+
+/* TICKER */
+.ticker{overflow:hidden;padding:26px 0;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.track{display:flex;gap:48px;width:max-content;animation:scroll 40s linear infinite}
+.track span{color:#fff;font-size:17px;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.track svg{flex:none}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.ticker:hover .track{animation-play-state:paused}
+
+/* PROMO BANNERS */
+.promos{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.promo{border-radius:var(--r-lg);overflow:hidden;position:relative;min-height:240px;color:#fff;padding:28px;display:flex;flex-direction:column;justify-content:space-between}
+.promo{background:linear-gradient(100deg,var(--pc) 0%,var(--pc) 45%,color-mix(in srgb,var(--pc) 15%,transparent) 76%),var(--pi) right center/cover;background-color:var(--pc)}
+.client .logoimg{height:44px;display:flex;align-items:center}.client .logoimg img{max-height:44px;max-width:120px;object-fit:contain}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;background:rgba(255,255,255,.18);padding:5px 10px;border-radius:999px;margin-bottom:12px}
+.promo h3{font-size:28px;line-height:1.15;font-weight:700;max-width:330px}
+.promo p{font-size:15px;opacity:.9;margin-top:8px;max-width:320px}
+
+/* PANELS */
+.panel{background:var(--panel);border-radius:var(--r-lg);padding:30px;margin-top:22px}
+.ph{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:6px;flex-wrap:wrap}
+.ph h2{font-size:28px;color:var(--navy);font-weight:700;display:flex;align-items:center;gap:10px}
+.ph h2 .ic{width:30px;height:30px;border-radius:9px;background:var(--lime-soft);display:grid;place-items:center}
+.lede{color:var(--muted);font-size:16px;margin-bottom:22px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#3f8f1f}
+
+/* chips */
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.chip{background:var(--chip);color:var(--navy);font-family:inherit;font-size:15px;font-weight:600;padding:8px 16px;border-radius:10px;border:0;cursor:pointer;transition:.2s}
+.chip:hover{background:#dbe2f3}
+.chip.on{background:var(--navy);color:#fff}
+.mini{display:inline-block;background:var(--chip);color:var(--navy);font-size:11px;font-weight:700;letter-spacing:.6px;padding:4px 9px;border-radius:999px;text-transform:uppercase}
+.mini.lime{background:var(--lime-soft);color:#2f7a12}
+
+/* capability grid */
+.cap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cap{border:1px solid var(--line);border-radius:var(--r-md);padding:20px;transition:.25s;background:#fff}
+.cap:hover{border-color:var(--lime);box-shadow:0 8px 28px rgba(0,27,89,.08);transform:translateY(-2px)}
+.cap .n{font-size:13px;font-weight:700;color:#3f8f1f;margin-bottom:6px}
+.cap h4{font-size:19px;color:var(--navy);margin-bottom:6px}
+.cap p{font-size:15px;color:var(--muted)}
+.fade{animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* process flow */
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.step{background:#f5f7fc;border-radius:12px;padding:14px;display:flex;gap:12px;align-items:center;font-weight:600;color:var(--navy);font-size:15px}
+.step b{flex:none;width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:14px}
+.step.hl b{background:var(--lime);color:var(--navy)}
+
+/* feature */
+.feature{display:grid;grid-template-columns:1.45fr 1fr;gap:28px;align-items:center}
+.feature figure{border-radius:var(--r-md);overflow:hidden;position:relative;cursor:zoom-in}
+.feature figcaption{font-size:12.5px;color:var(--muted);margin-top:8px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.stat{background:#f5f7fc;border-radius:12px;padding:16px}
+.stat .v{font-size:34px;font-weight:800;color:var(--navy);line-height:1}
+.stat .v small{font-size:16px;font-weight:600;color:#3f8f1f;margin-left:4px}
+.stat .l{font-size:14px;color:var(--muted);margin-top:4px}
+
+/* model cards (itinerary style) */
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:.25s;cursor:pointer}
+.card:hover{box-shadow:0 10px 30px rgba(0,27,89,.10);transform:translateY(-3px)}
+.card .im{aspect-ratio:3/2;background:#f3f5fa center/cover no-repeat}
+.card .bd{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h4{font-size:19px;color:var(--ink);line-height:1.25}
+.card p{font-size:14.5px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .more{margin-top:auto;font-size:14px;font-weight:700;color:var(--navy);display:flex;gap:6px;align-items:center}
+.note{font-size:12.5px;color:var(--muted);margin-top:14px}
+
+/* methodology */
+.method{display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative}
+.method:before{content:"";position:absolute;top:22px;left:8%;right:8%;height:2px;background:repeating-linear-gradient(90deg,var(--lime) 0 8px,transparent 8px 14px)}
+.ms{text-align:center;padding:0 8px;position:relative}
+.ms .dot{width:46px;height:46px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:grid;place-items:center;margin:0 auto 12px;border:4px solid #fff;box-shadow:0 0 0 2px var(--lime)}
+.ms h5{font-size:17px;color:var(--navy)}
+.ms p{font-size:14px;color:var(--muted)}
+
+/* products */
+.prod-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.prod{border:1px solid var(--line);border-radius:var(--r-md);padding:14px;text-align:left;background:#fff;cursor:pointer;font-family:inherit;transition:.2s}
+.prod:hover,.prod.on{border-color:var(--lime);box-shadow:0 6px 20px rgba(0,27,89,.07)}
+.prod .pi{height:110px;display:grid;place-items:center;margin-bottom:10px}
+.prod .pi img{max-height:110px;object-fit:contain}
+.prod h5{font-size:16px;color:var(--navy)}
+.prod span{font-size:13px;color:var(--muted)}
+.prod-detail{margin-top:16px;background:#f5f7fc;border-radius:var(--r-md);padding:18px 20px;display:none}
+.prod-detail.show{display:block}
+.prod-detail h5{color:var(--navy);font-size:18px;margin-bottom:10px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:500;color:var(--navy)}
+
+/* clients */
+.clients{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.client{border:1px solid var(--line);border-radius:var(--r-md);padding:18px;display:flex;flex-direction:column;gap:8px}
+.client .mono{width:44px;height:44px;border-radius:12px;background:var(--navy);color:var(--lime);font-weight:800;display:grid;place-items:center;font-size:17px}
+.client h5{font-size:17px;color:var(--ink);line-height:1.2}
+.client small{color:var(--muted);font-size:13px}
+
+/* enquiry */
+.enq{display:grid;grid-template-columns:1fr 1.25fr;gap:28px}
+.enq-side{background:var(--navy);color:#fff;border-radius:var(--r-md);padding:26px;display:flex;flex-direction:column;gap:18px}
+.enq-side h3{font-size:26px;line-height:1.2}
+.enq-side .blk{background:rgba(255,255,255,.07);border-radius:12px;padding:14px 16px}
+.enq-side .blk b{display:block;color:var(--lime);font-size:13px;letter-spacing:.8px;text-transform:uppercase;margin-bottom:4px}
+.enq-side .blk a{font-weight:600;overflow-wrap:anywhere}
+.ph-row{display:flex;gap:14px;flex-wrap:wrap}
+.enq-side .blk p{font-size:14px;opacity:.8}
+form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+label{display:block;font-size:14px;font-weight:600;color:var(--navy);margin-bottom:6px}
+input,select,textarea{width:100%;font-family:inherit;font-size:16px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;background:#fafbfe;color:var(--ink);outline:0;transition:.2s}
+input:focus,select:focus,textarea:focus{border-color:var(--lime);background:#fff;box-shadow:0 0 0 3px var(--lime-soft)}
+textarea{min-height:96px;resize:vertical}
+.full{margin-bottom:14px}
+.out{display:none;margin-top:16px;background:#f5f7fc;border:1px dashed #b9c4dd;border-radius:12px;padding:16px}
+.out.show{display:block}
+.out pre{white-space:pre-wrap;font-family:inherit;font-size:14.5px;color:var(--ink);margin:10px 0}
+.out .acts{display:flex;gap:10px;flex-wrap:wrap}
+
+/* footer */
+footer{color:#c8d2ec;padding:46px 0 90px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h6{color:#fff;font-size:15px;margin-bottom:12px;letter-spacing:.4px}
+footer li{list-style:none;font-size:15px;margin-bottom:8px}
+footer a:hover{color:var(--lime)}
+.fbot{border-top:1px solid rgba(255,255,255,.1);margin-top:34px;padding-top:18px;font-size:13.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;opacity:.75}
+
+/* floating */
+.wa{position:fixed;right:20px;bottom:20px;z-index:60;background:#25d366;color:#fff;border-radius:16px;padding:10px 16px 10px 12px;display:flex;align-items:center;gap:10px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.wa small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.6px;opacity:.9}
+.wa b{font-size:15px}
+.top{position:fixed;left:20px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:12px;background:var(--lime);display:grid;place-items:center;border:0;cursor:pointer;opacity:0;pointer-events:none;transition:.3s}
+.top.show{opacity:1;pointer-events:auto}
+
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(0,10,40,.88);z-index:100;display:none;align-items:center;justify-content:center;padding:30px;flex-direction:column;gap:14px}
+.lb.show{display:flex}
+.lb img{max-height:78vh;border-radius:12px}
+.lb .cap{color:#fff;max-width:900px;text-align:center}
+.lb .cap h4{font-size:22px;margin-bottom:4px}
+.lb .cap p{opacity:.8;font-size:15px}
+.lb .x{position:absolute;top:18px;right:22px;background:#fff;border:0;border-radius:10px;width:40px;height:40px;font-size:20px;cursor:pointer}
+
+.reveal{opacity:0;transform:translateY(16px);transition:.6s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:1080px){
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .prod-grid{grid-template-columns:repeat(3,1fr)}
+  .flow{grid-template-columns:repeat(2,1fr)}
+  .clients{grid-template-columns:repeat(2,1fr)}
+  .method{grid-template-columns:repeat(3,1fr);row-gap:26px}
+  .method:before{display:none}
+}
+@media (max-width:860px){
+  .links a:not(.btn){display:none}
+  .links .btn{padding:8px 14px;font-size:14px}
+  .hero h1{font-size:34px}.hello{font-size:24px}
+  .promos,.feature,.enq{grid-template-columns:1fr}
+  .cap-grid{grid-template-columns:1fr 1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 12px}
+  .nav .wrap{height:58px}.tabs{top:58px}
+  .logo b{font-size:22px}.logo b i{height:20px;width:6px}.logo span{font-size:15px}
+  section[id],main[id]{scroll-margin-top:118px}
+  .hero{min-height:auto;margin-top:10px;border-radius:16px}
+  .hero-in{padding:44px 14px 22px}
+  .hello{font-size:20px}.hero h1{font-size:27px}.hero p.sub{font-size:15.5px;margin:10px auto 20px}
+  .brief{padding:12px;border-radius:14px}.brief textarea{font-size:16px;height:64px}
+  .brief-foot{gap:8px}.div-toggle{width:100%}.div-toggle button{flex:1;font-size:13px;padding:8px 6px}
+  .brief-foot>div:last-child{width:100%;justify-content:space-between}
+  .ticker{padding:16px 0}.track{gap:30px}.track span{font-size:15px}
+  .promo{min-height:300px;padding:20px;justify-content:flex-end;gap:14px}
+  .promo{background:linear-gradient(0deg,var(--pc) 0%,var(--pc) 48%,color-mix(in srgb,var(--pc) 25%,transparent) 100%),var(--pi) center top/cover;background-color:var(--pc)}
+  .promo h3{font-size:23px}
+  .panel{padding:20px 14px;margin-top:14px;border-radius:16px}
+  .ph h2{font-size:22px}.ph h2 .ic{width:26px;height:26px}
+  .lede{font-size:15px;margin-bottom:14px}
+  /* chips & card lists become swipeable rows */
+  .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -14px 16px;padding:0 14px}
+  .chips::-webkit-scrollbar,.cards::-webkit-scrollbar,.cap-grid::-webkit-scrollbar{display:none}
+  .chip{flex:none;font-size:14px;padding:8px 14px}
+  .cap-grid,.cards{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -14px;padding:2px 14px 6px;scrollbar-width:none}
+  .cap{flex:0 0 78%;scroll-snap-align:start}
+  .card{flex:0 0 82%;scroll-snap-align:start}
+  .swipe-hint{display:flex}
+  .flow{grid-template-columns:1fr 1fr;gap:8px}
+  .step{padding:10px;gap:8px;font-size:13.5px;min-width:0}
+  .step b{width:28px;height:28px;font-size:12px}
+  .feature{gap:16px}.feature h2{font-size:24px!important}
+  .stat{padding:12px}.stat .v{font-size:26px}.stat .v small{font-size:13px}.stat .l{font-size:12.5px}
+  .method{grid-template-columns:1fr 1fr;row-gap:20px}
+  .ms .dot{width:40px;height:40px}
+  .prod-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .prod{padding:10px}.prod .pi{height:84px}.prod .pi img{max-height:84px}.prod h5{font-size:14.5px;line-height:1.25}
+  .clients{grid-template-columns:1fr 1fr;gap:10px}
+  .client{padding:12px}.client .mono{width:36px;height:36px;font-size:14px;border-radius:10px}.client h5{font-size:14.5px}
+  .enq-side{padding:18px;gap:12px}.enq-side h3{font-size:22px}
+  .enq-side .blk a{font-size:14.5px;word-break:normal;overflow-wrap:anywhere}
+  .enq-side .ph-row{display:flex;flex-direction:column;gap:2px}
+  form .row{grid-template-columns:1fr;gap:12px;margin-bottom:12px}
+  form .btn[type=submit]{width:100%;justify-content:center}
+  .fgrid{grid-template-columns:1fr 1fr;gap:22px}.fgrid>div:first-child{grid-column:1/-1}
+  footer{padding:34px 0 96px}
+  .wa{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:12px;border-radius:50%}
+  .wa .t{display:none}
+  .top{left:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:44px;height:44px}
+  .lb{padding:14px}.lb img{max-height:60vh}.lb .cap h4{font-size:18px}.lb .cap p{font-size:13.5px}
+}
+.swipe-hint{display:none;align-items:center;gap:6px;font-size:13px;color:var(--muted);margin-top:8px}
+@media (hover:none){.card:hover,.cap:hover,.prod:hover{transform:none}}
+*{-webkit-tap-highlight-color:transparent}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home" class="logo"><b><span data-t="brand.name"></span><i></i></b><span data-t="brand.suffix"></span></a>
+    <div class="links" id="links">
+      <a id="navPhone" href="#"></a>
+      <a href="#contact" class="btn btn-lime" data-t="brand.ctaLabel"></a>
+    </div>
+  </div>
+</nav>
+<div class="tabs" id="tabs"><div class="wrap" id="tabWrap"></div></div>
+
+<main class="wrap" id="home">
+  <section class="hero" id="hero">
+    <div class="hero-in">
+      <div class="hello"><span data-t="hero.greeting"></span> <em data-t="hero.greetingHighlight"></em></div>
+      <h1 data-t="hero.title"></h1>
+      <p class="sub" data-t="hero.subtitle"></p>
+      <div class="brief">
+        <div class="brief-row">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" style="margin-top:4px;opacity:.85"><path d="M12 3l1.8 4.6L18 9.4l-4.2 1.8L12 16l-1.8-4.8L6 9.4l4.2-1.8z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+          <textarea id="briefText" aria-label="Describe your project"></textarea>
+        </div>
+        <div class="brief-foot">
+          <div class="div-toggle" id="divToggle">
+            <button class="on" data-d="epc">EPC Turnkey</button>
+            <button data-d="water">Water &amp; Wastewater</button>
+          </div>
+          <div style="display:flex;gap:10px;align-items:center">
+            <a id="heroCall" href="#" class="btn btn-ghost light" style="font-size:14px;padding:9px 14px">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--lime)" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+              Talk to Engineer</a>
+            <button class="send" id="briefSend" aria-label="Start enquiry"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker"><div class="track" id="track"></div></div>
+  <section class="promos" id="promos"></section>
+
+  <section class="panel reveal" id="capabilities">
+    <div class="ph"><h2><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f8f1f" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span><span data-t="capabilities.title"></span></h2></div>
+    <p class="lede" data-t="capabilities.subtitle"></p>
+    <div class="chips" id="capChips"></div>
+    <div class="cap-grid" id="capGrid"></div>
+    <div class="swipe-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Swipe for more</div>
+  </section>
+
+  <section class="panel reveal" id="fishmeal">
+    <div class="feature">
+      <div>
+        <figure id="fmFig"><img id="fmImg" alt=""></figure>
+        <figcaption data-t="fishmeal.caption"></figcaption>
+      </div>
+      <div>
+        <div class="kicker" data-t="fishmeal.kicker"></div>
+        <h2 style="font-size:30px;color:var(--navy);line-height:1.15;margin:8px 0 10px" data-t="fishmeal.title"></h2>
+        <p style="color:var(--muted)" data-t="fishmeal.text"></p>
+        <div class="stats" id="stats"></div>
+        <a href="#contact" class="btn btn-lime" data-pre="epc" data-t="fishmeal.button"></a>
+      </div>
+    </div>
+    <h3 style="color:var(--navy);font-size:20px;margin:30px 0 14px">Process flow</h3>
+    <div class="flow" id="flow"></div>
+  </section>
+
+  <section class="panel reveal" id="models">
+    <div class="ph"><h2><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f8f1f" stroke-width="2.2"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg></span><span data-t="models.title"></span></h2>
+      <a href="#contact" class="btn btn-ghost" data-pre="water">Request a configuration</a></div>
+    <p class="lede" data-t="models.subtitle"></p>
+    <div class="chips" id="modelChips"></div>
+    <div class="cards" id="cards"></div>
+    <div class="swipe-hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Swipe for more</div>
+    <p class="note" data-t="models.note"></p>
+  </section>
+
+  <section class="panel reveal" id="execution">
+    <div class="ph"><h2><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f8f1f" stroke-width="2.2"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span><span data-t="method.title"></span></h2></div>
+    <p class="lede" data-t="method.subtitle"></p>
+    <div class="method" id="method"></div>
+  </section>
+
+  <section class="panel reveal" id="products">
+    <div class="ph"><h2><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f8f1f" stroke-width="2.2"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8"/></svg></span><span data-t="products.title"></span></h2></div>
+    <p class="lede" data-t="products.subtitle"></p>
+    <div class="prod-grid" id="prodGrid"></div>
+    <div class="prod-detail" id="prodDetail"></div>
+  </section>
+
+  <section class="panel reveal" id="clients">
+    <div class="ph"><h2><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3f8f1f" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span><span data-t="clients.title"></span></h2></div>
+    <p class="lede" data-t="clients.subtitle"></p>
+    <div class="chips" id="clientChips"></div>
+    <div class="clients" id="clientGrid"></div>
+  </section>
+
+  <section class="panel reveal" id="contact">
+    <div class="enq">
+      <div class="enq-side">
+        <div><div class="kicker" style="color:var(--lime)" data-t="contact.kicker"></div><h3 style="margin-top:6px" data-t="contact.title"></h3></div>
+        <div class="blk"><b>EPC Turnkey Projects</b><a id="epcMail"></a><p data-t="contact.epcNote"></p></div>
+        <div class="blk"><b>Water &amp; Wastewater</b><a id="waterMail"></a><p data-t="contact.waterNote"></p></div>
+        <div class="blk"><b id="personLine"></b><div class="ph-row" id="phoneRow"></div></div>
+        <div class="blk"><b>Office</b><p style="opacity:1" data-t="contact.address"></p></div>
+      </div>
+      <form id="enqForm" novalidate>
+        <h3 style="color:var(--navy);font-size:24px;margin-bottom:4px" data-t="contact.formTitle"></h3>
+        <p class="lede" style="margin-bottom:18px" data-t="contact.formSubtitle"></p>
+        <div class="row">
+          <div><label for="fDiv">Division</label><select id="fDiv"><option value="epc">EPC Turnkey Projects</option><option value="water">Water &amp; Wastewater</option></select></div>
+          <div><label for="fName">Your name &amp; company</label><input id="fName" placeholder="Name, Company" required></div>
+        </div>
+        <div class="row">
+          <div><label for="fPhone">Phone / Email</label><input id="fPhone" placeholder="+91 …" required></div>
+          <div><label for="fLoc">Site location &amp; available area</label><input id="fLoc" placeholder="e.g. Tuticorin, 2 acres"></div>
+        </div>
+        <div class="row">
+          <div><label for="fCap">Product &amp; production capacity</label><input id="fCap" placeholder="e.g. Fish meal, 100 MT/day · or STP 200 KLD"></div>
+          <div><label for="fScope">Scope required</label><select id="fScope"><option>New plant – full EPC</option><option>Design &amp; engineering only</option><option>Equipment supply</option><option>Installation &amp; commissioning</option><option>Revamping / retrofit</option><option>O&amp;M / AMC / spares</option></select></div>
+        </div>
+        <div class="full"><label for="fMsg">Raw material / wastewater characteristics, utilities, existing plant &amp; target schedule</label><textarea id="fMsg"></textarea></div>
+        <button class="btn btn-lime" type="submit" style="font-size:16px;padding:12px 22px">Prepare my enquiry →</button>
+        <div class="out" id="out">
+          <strong style="color:var(--navy)">Your enquiry is ready</strong> — copy it and send it to <span id="outTo"></span>, or open it in your mail app.
+          <pre id="outText"></pre>
+          <div class="acts"><button type="button" class="btn btn-lime" id="copyBtn">Copy enquiry</button><a class="btn btn-ghost" id="mailBtn" href="#">Open in mail app</a></div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><a href="#home" class="logo"><b><span data-t="brand.name"></span><i></i></b><span data-t="brand.suffix"></span></a>
+        <p style="margin-top:12px;font-size:15px;max-width:320px" data-t="footer.about"></p></div>
+      <div><h6>EPC Turnkey</h6><ul><li><a href="#fishmeal">Fish meal &amp; fish oil plants</a></li><li><a href="#capabilities">Steam &amp; heat recovery</a></li><li><a href="#capabilities">Effluent &amp; biogas</a></li><li><a href="#capabilities">Odour control</a></li></ul></div>
+      <div><h6>Water Solutions</h6><ul><li><a href="#models">ETP / STP / WTP</a></li><li><a href="#models">UF / RO / Desalination</a></li><li><a href="#capabilities">Revamping &amp; O&amp;M</a></li><li><a href="#products">Equipment &amp; spares</a></li></ul></div>
+      <div><h6>Contact</h6><ul id="footContact"></ul></div>
+    </div>
+    <div class="fbot"><span>© <span id="yr"></span> Shree Enterprises · <span data-t="footer.tagline"></span></span><span data-t="footer.disclaimer"></span></div>
+  </div>
+</footer>
+
+<a class="wa" id="wa" href="#" target="_blank" rel="noopener">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.2-.2-.5-.3z"/></svg>
+  <span class="t"><small>SHREE CONCIERGE</small><b>Chat on WhatsApp</b></span>
+</a>
+<button class="top" id="top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#001B59" stroke-width="2.6"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="lb" id="lb"><button class="x" id="lbx" aria-label="Close">✕</button><img id="lbImg" alt=""><div class="cap"><h4 id="lbT"></h4><p id="lbD"></p></div></div>
+<div id="loadErr" style="display:none;position:fixed;inset:0;background:var(--navy);color:#fff;z-index:200;align-items:center;justify-content:center;text-align:center;padding:30px;font-size:17px"></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const get=(o,p)=>p.split('.').reduce((a,k)=>a&&a[k],o);
+const drop='<svg width="15" height="15" viewBox="0 0 24 24" fill="#85DC4F"><path d="M12 2s7 7.6 7 12.5A7 7 0 0 1 5 14.5C5 9.6 12 2 12 2z"/></svg>';
+const tel=p=>'tel:'+String(p).replace(/[^+\d]/g,'');
+const icons={home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',capabilities:'<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>',fishmeal:'<path d="M2 12s4-6 11-6c4 0 7 3 9 6-2 3-5 6-9 6-7 0-11-6-11-6z"/>',models:'<path d="M3 21h18M5 21V9l7-5 7 5v12"/>',execution:'<path d="M4 12h16M14 6l6 6-6 6"/>',products:'<path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8"/>',clients:'<circle cx="9" cy="7" r="4"/><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>',contact:'<path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/>'};
+const tabNames={home:'Home',capabilities:'Capabilities',fishmeal:'Fish Meal EPC',models:'Plant Models',execution:'How We Execute',products:'Products',clients:'Clients',contact:'Contact'};
+let D=null;
+
+function chipRow(el,keys,onPick,keep){const cur=keep&&el.querySelector('.chip.on')?.dataset.k;const start=keys.includes(cur)?cur:keys[0];
+  el.innerHTML=keys.map(k=>`<button class="chip${k===start?' on':''}" data-k="${esc(k)}">${esc(k)}</button>`).join('');
+  el.onclick=e=>{const b=e.target.closest('.chip');if(!b)return;el.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c===b));b.scrollIntoView({inline:'nearest',block:'nearest',behavior:'smooth'});onPick(b.dataset.k);const g=el.nextElementSibling;if(g)g.scrollLeft=0};
+  onPick(start)}
+const uniq=a=>[...new Set(a.filter(Boolean))];
+
+function render(){
+  document.title=D.brand.pageTitle||document.title;
+  document.querySelectorAll('[data-t]').forEach(el=>{el.textContent=get(D,el.dataset.t)??''});
+  const ph=D.contact.phones||[];
+  $('#navPhone').textContent=D.brand.phone;$('#navPhone').href=tel(D.brand.phone);$('#heroCall').href=tel(ph[0]||D.brand.phone);
+  $('#hero').style.backgroundImage=`linear-gradient(180deg,rgba(0,19,74,.55),rgba(0,19,74,.78)),url("${D.hero.image}")`;
+  $('#track').innerHTML=[...D.ticker,...D.ticker].map(t=>`<span>${drop}${esc(t)}</span>`).join('');
+  $('#promos').innerHTML=D.promos.map(p=>`<a href="${esc(p.link)}" class="promo" style="--pc:${esc(p.color||'#1036a8')};--pi:url('${esc(p.image)}')">
+    <div><span class="tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p></div><span class="btn btn-lime" style="align-self:flex-start">${esc(p.button)}</span></a>`).join('');
+  const groups=D.capabilities.groups;
+  chipRow($('#capChips'),groups.map(g=>g.name),k=>{const g=groups.find(x=>x.name===k);$('#capGrid').innerHTML=(g?.items||[]).map(c=>`<div class="cap fade">${c.number?`<div class="n">${esc(c.number)}</div>`:''}<h4>${esc(c.title)}</h4><p>${esc(c.text)}</p></div>`).join('')},true);
+  const F=D.fishmeal;$('#fmImg').src=F.image;$('#fmImg').alt=F.title;
+  $('#stats').innerHTML=F.stats.map(s=>`<div class="stat"><div class="v">${esc(s.value)}<small>${esc(s.unit)}</small></div><div class="l">${esc(s.label)}</div></div>`).join('');
+  $('#flow').innerHTML=F.flow.map((f,i)=>`<div class="step"><b>${String(i+1).padStart(2,'0')}</b>${esc(f)}</div>`).join('');
+  const M=D.models.items;
+  chipRow($('#modelChips'),['All',...uniq(M.map(m=>m.category))],k=>{$('#cards').innerHTML=M.map((m,i)=>({m,i})).filter(({m})=>k==='All'||m.category===k).map(({m,i})=>`
+    <article class="card fade" data-i="${i}"><div class="im" style="background-image:url('${esc(m.image)}')"></div>
+    <div class="bd"><h4>${esc(m.title)}</h4>${m.tag?`<div><span class="mini lime">${esc(m.tag)}</span></div>`:''}<p>${esc(m.text)}</p><span class="more">View details →</span></div></article>`).join('')},true);
+  $('#method').innerHTML=D.method.steps.map((s,i)=>`<div class="ms"><div class="dot">${String(i+1).padStart(2,'0')}</div><h5>${esc(s.title)}</h5><p>${esc(s.text)}</p></div>`).join('');
+  $('#prodGrid').innerHTML=D.products.items.map((p,i)=>`<button class="prod" data-i="${i}"><div class="pi">${p.image?`<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">`:""}</div><h5>${esc(p.name)}</h5><span>${(p.items||[]).length} items</span></button>`).join('');
+  $('#prodDetail').classList.remove('show');
+  const C=D.clients.items;
+  chipRow($('#clientChips'),['All',...uniq(C.map(c=>c.category))],k=>{$('#clientGrid').innerHTML=C.filter(c=>k==='All'||c.category===k).map(c=>`<div class="client fade">${c.logo?`<div class="logoimg"><img src="${esc(c.logo)}" alt=""></div>`:`<div class="mono">${esc(c.name.split(/[\s/]+/).filter(w=>/^[A-Z]/.test(w)).slice(0,2).map(w=>w[0]).join(''))}</div>`}<h5>${esc(c.name)}</h5><small>${esc(c.sector)}</small></div>`).join('')},true);
+  const K=D.contact;
+  $('#epcMail').textContent=K.epcEmail;$('#epcMail').href='mailto:'+K.epcEmail;
+  $('#waterMail').textContent=K.waterEmail;$('#waterMail').href='mailto:'+K.waterEmail;
+  $('#personLine').textContent=`${K.person} · ${K.role}`;
+  $('#phoneRow').innerHTML=ph.map(p=>`<a href="${tel(p)}">${esc(p)}</a>`).join('');
+  $('#footContact').innerHTML=[...ph.map(esc),esc(K.city)].map(x=>`<li>${x}</li>`).join('');
+  $('#wa').href='https://wa.me/'+String(K.whatsapp).replace(/\D/g,'');
+}
+
+/* static behaviour (bound once) */
+let div='epc',pi=0,ci=0,typing;
+function prompts(){return (div==='epc'?D.hero.promptsEPC:D.hero.promptsWater)||['Describe your project…']}
+function type(){const p=prompts(),s=p[pi%p.length];ci++;$('#briefText').placeholder=s.slice(0,ci);
+  if(ci>=s.length){typing=setTimeout(()=>{ci=0;pi++;type()},2200)}else typing=setTimeout(type,38)}
+$('#divToggle').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  document.querySelectorAll('#divToggle button').forEach(x=>x.classList.toggle('on',x===b));div=b.dataset.d;clearTimeout(typing);ci=0;pi=0;type()});
+$('#briefSend').onclick=()=>{$('#fDiv').value=div;const t=$('#briefText').value.trim();if(t)$('#fMsg').value=t;$('#contact').scrollIntoView({behavior:'smooth'});setTimeout(()=>$('#fName').focus(),600)};
+document.addEventListener('click',e=>{const a=e.target.closest('[data-pre]');if(a)$('#fDiv').value=a.dataset.pre});
+$('#cards').addEventListener('click',e=>{const c=e.target.closest('.card');if(!c)return;const m=D.models.items[c.dataset.i];openLb(m.image,m.title,m.text)});
+function openLb(src,t,d){$('#lbImg').src=src;$('#lbT').textContent=t;$('#lbD').textContent=d;$('#lb').classList.add('show')}
+$('#fmFig').onclick=()=>openLb(D.fishmeal.image,D.fishmeal.title,D.fishmeal.caption);
+$('#lbx').onclick=()=>$('#lb').classList.remove('show');
+$('#lb').onclick=e=>{if(e.target.id==='lb')$('#lb').classList.remove('show')};
+addEventListener('keydown',e=>{if(e.key==='Escape')$('#lb').classList.remove('show')});
+$('#prodGrid').addEventListener('click',e=>{const b=e.target.closest('.prod');if(!b)return;const on=b.classList.contains('on');
+  document.querySelectorAll('.prod').forEach(p=>p.classList.remove('on'));const d=$('#prodDetail');
+  if(on){d.classList.remove('show');return}b.classList.add('on');const p=D.products.items[b.dataset.i];
+  d.innerHTML=`<h5>${esc(p.name)}</h5><div class="pills">${(p.items||[]).map(x=>`<span>${esc(x)}</span>`).join('')}</div><a href="#contact" class="btn btn-lime" style="margin-top:14px" id="pq">Enquire about ${esc(p.name.toLowerCase())} →</a>`;d.classList.add('show');
+  $('#pq').onclick=()=>{$('#fDiv').value='water';$('#fScope').value='Equipment supply';$('#fMsg').value=`Enquiry: ${p.name} — `}});
+$('#enqForm').addEventListener('submit',e=>{e.preventDefault();
+  const n=$('#fName'),p=$('#fPhone');let ok=true;[n,p].forEach(f=>{const bad=!f.value.trim();f.style.borderColor=bad?'#e5484d':'';if(bad)ok=false});if(!ok)return;
+  const d=$('#fDiv').value,to=d==='epc'?D.contact.epcEmail:D.contact.waterEmail;
+  const body=`Project enquiry — ${d==='epc'?'EPC Turnkey Projects':'Water & Wastewater'}\n\nName / Company: ${n.value}\nContact: ${p.value}\nSite location & area: ${$('#fLoc').value||'-'}\nProduct & capacity: ${$('#fCap').value||'-'}\nScope: ${$('#fScope').value}\n\nDetails:\n${$('#fMsg').value||'-'}`;
+  $('#outText').textContent=body;$('#outTo').textContent=to;
+  $('#mailBtn').href=`mailto:${to}?subject=${encodeURIComponent('Project enquiry – '+n.value)}&body=${encodeURIComponent(body)}`;
+  $('#out').classList.add('show');$('#out').scrollIntoView({behavior:'smooth',block:'nearest'})});
+$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText($('#outText').textContent);$('#copyBtn').textContent='Copied ✓'}catch(_){$('#copyBtn').textContent='Select the text above to copy'}setTimeout(()=>$('#copyBtn').textContent='Copy enquiry',2500)};
+
+/* tabs + scrollspy */
+const tabKeys=Object.keys(tabNames);
+$('#tabWrap').innerHTML=tabKeys.map((k,i)=>`<a class="tab${i?'':' on'}" href="#${k}" data-t2="${k}"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">${icons[k]}</svg>${tabNames[k]}</a>`).join('');
+const tabEls=[...document.querySelectorAll('.tab')];
+function spy(){let cur='home';const y=scrollY+170;
+  tabKeys.forEach(k=>{const s=document.getElementById(k);if(k!=='home'&&s&&s.offsetTop<=y)cur=k});
+  if(innerHeight+scrollY>=document.body.scrollHeight-4)cur='contact';
+  tabEls.forEach(t=>{const on=t.dataset.t2===cur;if(on&&!t.classList.contains('on'))t.parentNode.scrollTo({left:t.offsetLeft-40,behavior:'smooth'});t.classList.toggle('on',on)})}
+addEventListener('scroll',spy,{passive:true});
+tabEls.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();const k=t.dataset.t2,el=document.getElementById(k);
+  scrollTo({top:k==='home'?0:el.getBoundingClientRect().top+scrollY-($('.nav').offsetHeight+$('.tabs').offsetHeight+10),behavior:'smooth'})}));
+$('#yr').textContent=new Date().getFullYear();
+addEventListener('scroll',()=>$('#top').classList.toggle('show',scrollY>600),{passive:true});
+$('#top').onclick=()=>scrollTo({top:0,behavior:'smooth'});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* live preview from the editor */
+addEventListener('message',e=>{if(e.data&&e.data.type==='shree-preview'&&e.data.content){const first=!D;D=e.data.content;render();if(first){type();spy()}if(e.data.scrollTo){const el=document.getElementById(e.data.scrollTo);if(el)scrollTo({top:el.getBoundingClientRect().top+scrollY-130})}}});
+
+/* load content */
+(async()=>{
+  const inPreview=new URLSearchParams(location.search).has('preview');
+  try{const r=await fetch('content/site.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(r.status);D=await r.json();render();type();spy()}
+  catch(err){if(!inPreview){const el=$('#loadErr');el.style.display='flex';el.innerHTML='Could not load website content (content/site.json).<br>If you opened this file directly from your computer, view it through a web host or a local web server instead.'}}
+  if(inPreview&&window.parent!==window)parent.postMessage({type:'shree-ready'},'*');
+})();
+</script>
+</body>
+</html>

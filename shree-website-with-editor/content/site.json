@@ -1,0 +1,607 @@
+{
+  "brand": {
+    "name": "Shree",
+    "suffix": "enterprises",
+    "phone": "+91 79045 49689",
+    "ctaLabel": "Start a Project",
+    "pageTitle": "Shree Enterprises | EPC Turnkey Projects & Water Solutions"
+  },
+  "hero": {
+    "greeting": "Hey, we're",
+    "greetingHighlight": "Shree",
+    "title": "Your EPC Partner for Fish Meal Plants & Complete Water Treatment",
+    "subtitle": "Practical engineering. Coordinated execution. Responsive support — from feasibility to commissioning and beyond.",
+    "image": "img/automated-stp.jpg",
+    "promptsEPC": [
+      "Plan a 100 MT/day fish meal plant with stick-water evaporation…",
+      "Upgrade our cooker and twin screw press line…",
+      "Add a biofilter and scrubber for odour control…"
+    ],
+    "promptsWater": [
+      "Revamp a 500 KLD STP for an apartment complex…",
+      "Seawater RO for 200 m³/day process water…",
+      "ETP for a seafood processing unit…"
+    ]
+  },
+  "ticker": [
+    "Fish Meal Plants",
+    "Fish Oil Purification",
+    "ETP",
+    "STP",
+    "WTP",
+    "Ultrafiltration",
+    "Reverse Osmosis",
+    "Desalination",
+    "Biogas & UASB",
+    "Odour Control",
+    "Heat Recovery",
+    "PLC / SCADA",
+    "Revamping",
+    "AMC & Spares"
+  ],
+  "promos": [
+    {
+      "tag": "EPC Turnkey Projects",
+      "title": "Fish Meal & Fish Oil Plants, Concept to Commissioning",
+      "text": "Process, utilities, effluent treatment, biogas and odour control in one coordinated scope.",
+      "button": "Explore EPC",
+      "link": "#fishmeal",
+      "image": "img/plant-600tpd.jpg",
+      "color": "#1036a8"
+    },
+    {
+      "tag": "Water & Wastewater",
+      "title": "ETP · STP · WTP · UF · RO · Desalination",
+      "text": "Design, installation, revamping and service support for plants up to 1 MLD.",
+      "button": "Explore Water",
+      "link": "#models",
+      "image": "img/desal.jpg",
+      "color": "#00805f"
+    }
+  ],
+  "capabilities": {
+    "title": "Our Capabilities",
+    "subtitle": "One integrated partner for multidisciplinary industrial project delivery.",
+    "groups": [
+      {
+        "name": "End-to-End Delivery",
+        "items": [
+          {
+            "number": "01",
+            "title": "Feasibility & DPR",
+            "text": "Process selection, project costing, schedules and techno-economic assessment."
+          },
+          {
+            "number": "02",
+            "title": "Process Engineering",
+            "text": "PFD, P&ID, mass balance, utility balance and technical specifications."
+          },
+          {
+            "number": "03",
+            "title": "Procurement",
+            "text": "Vendor evaluation, technical bid comparison and equipment coordination."
+          },
+          {
+            "number": "04",
+            "title": "Civil & Mechanical",
+            "text": "Foundations, structural steel, piping, fabrication and erection support."
+          },
+          {
+            "number": "05",
+            "title": "Electrical & Automation",
+            "text": "Power distribution, MCC, PLC/SCADA, instruments and interlocks."
+          },
+          {
+            "number": "06",
+            "title": "Start-up & Handover",
+            "text": "Testing, commissioning support, operator training and maintenance planning."
+          }
+        ]
+      },
+      {
+        "name": "Process Equipment",
+        "items": [
+          {
+            "number": "",
+            "title": "Raw Material Handling",
+            "text": "Receiving hoppers, conveyors, size reduction and metered feed."
+          },
+          {
+            "number": "",
+            "title": "Steam Cooker",
+            "text": "Indirect steam heating with temperature and retention-time control."
+          },
+          {
+            "number": "",
+            "title": "Twin Screw Press",
+            "text": "Separation of press cake and press liquor; robust, maintainable design."
+          },
+          {
+            "number": "",
+            "title": "Decanter & Purifier",
+            "text": "Liquid/solid separation and fish oil polishing."
+          },
+          {
+            "number": "",
+            "title": "Rotary Disc Dryer",
+            "text": "Controlled drying, vapour management and safe product discharge."
+          },
+          {
+            "number": "",
+            "title": "Finishing & Bagging",
+            "text": "Meal cooling, screening, milling, weighing and dispatch."
+          }
+        ]
+      },
+      {
+        "name": "Steam & Energy",
+        "items": [
+          {
+            "number": "",
+            "title": "Boiler & Steam Distribution",
+            "text": "Biomass or other suitable boilers, steam headers, condensate return, feed-water treatment and insulation."
+          },
+          {
+            "number": "",
+            "title": "Evaporation & MEE",
+            "text": "Stick-water concentration, vapour reuse and integration with dryer heat-recovery options."
+          },
+          {
+            "number": "",
+            "title": "Cooling & Water",
+            "text": "Cooling tower, circulation pumps, process-water storage, softener, filtration and UF/RO where required."
+          },
+          {
+            "number": "",
+            "title": "Energy Optimisation",
+            "text": "Heat integration studies, variable-speed drives, utility monitoring and lifecycle operating-cost review."
+          }
+        ]
+      },
+      {
+        "name": "Wastewater & Recovery",
+        "items": [
+          {
+            "number": "",
+            "title": "Pre-treatment",
+            "text": "Screening, collection and equalization, coagulation/flocculation and dissolved air flotation (DAF)."
+          },
+          {
+            "number": "",
+            "title": "Biological Treatment",
+            "text": "UASB/anaerobic treatment, aeration or MBBR, clarification and sludge management."
+          },
+          {
+            "number": "",
+            "title": "Tertiary Treatment",
+            "text": "Pressure sand filters, activated carbon, UF, RO and treated-water reuse subject to design."
+          },
+          {
+            "number": "",
+            "title": "Biogas Opportunity",
+            "text": "Anaerobic gas collection and utilization feasibility with process safety and gas treatment."
+          }
+        ]
+      },
+      {
+        "name": "Odour & Air",
+        "items": [
+          {
+            "number": "",
+            "title": "Source Capture",
+            "text": "Enclosed receiving areas, process vapour extraction, ducting and negative-pressure design."
+          },
+          {
+            "number": "",
+            "title": "Scrubber Systems",
+            "text": "Wet or chemical scrubbing for selected odorous compounds and process exhaust."
+          },
+          {
+            "number": "",
+            "title": "Biofilter Systems",
+            "text": "Engineered biofilter media, airflow distribution, moisture management and monitoring."
+          },
+          {
+            "number": "",
+            "title": "Compliance Support",
+            "text": "TNPCB CTE/CTO documentation coordination, design basis and environmental monitoring planning."
+          }
+        ]
+      },
+      {
+        "name": "Water Treatment & Service",
+        "items": [
+          {
+            "number": "01",
+            "title": "Treatment Systems",
+            "text": "STP, ETP, WTP, reverse osmosis, ultrafiltration, softeners and iron removal systems."
+          },
+          {
+            "number": "02",
+            "title": "Installation & Commissioning",
+            "text": "Design, manufacture, erection and commissioning of compact treatment and swimming pool systems."
+          },
+          {
+            "number": "03",
+            "title": "Revamping & Retrofitting",
+            "text": "Improve existing plants for changing flow, organic load, process requirements and performance."
+          },
+          {
+            "number": "04",
+            "title": "Service & Maintenance",
+            "text": "Consultancy, O&M, annual maintenance contracts, chemicals and replacement spares."
+          },
+          {
+            "number": "",
+            "title": "Smart Automation",
+            "text": "PLC / HMI / SCADA, duty-standby pump control, online pH, flow, level, conductivity and DO monitoring."
+          },
+          {
+            "number": "",
+            "title": "Biological Options",
+            "text": "MBBR / SBR / MBR selected for wastewater quality, site area and treated-water requirements."
+          }
+        ]
+      }
+    ]
+  },
+  "fishmeal": {
+    "kicker": "EPC Turnkey · Flagship concept",
+    "title": "600 MT/Day Fish Meal & Fish Oil Plant",
+    "text": "Continuous wet processing — raw fish to fish meal, fish oil and soluble concentrate — with steam, energy recovery, wastewater and odour systems engineered around production demand.",
+    "image": "img/plant-600tpd.jpg",
+    "caption": "Concept visualization only — not an IFC drawing; process routing, capacities and dimensions to be verified. Click to enlarge.",
+    "stats": [
+      {
+        "value": "600",
+        "unit": "MT/day",
+        "label": "Conceptual plant layout"
+      },
+      {
+        "value": "10",
+        "unit": "stages",
+        "label": "Integrated process line"
+      },
+      {
+        "value": "3",
+        "unit": "products",
+        "label": "Meal · Oil · Solubles"
+      },
+      {
+        "value": "1",
+        "unit": "partner",
+        "label": "EPC, utilities & environment"
+      }
+    ],
+    "button": "Discuss your capacity →",
+    "flow": [
+      "Raw fish reception",
+      "Hogger / conveying",
+      "Steam cooking",
+      "Twin screw press",
+      "Decanter separation",
+      "Oil purification",
+      "Stick-water evaporation",
+      "Rotary disc drying",
+      "Cooling and milling",
+      "Bagging and storage"
+    ]
+  },
+  "models": {
+    "title": "Plant Models",
+    "subtitle": "Compact, automated treatment packages. Final process is selected after water analysis and site assessment.",
+    "note": "Images are AI-generated concept illustrations for presentation; final materials, layout and controls are application-specific.",
+    "items": [
+      {
+        "title": "Integrated STP / ETP with Intelligent Control",
+        "category": "Automated",
+        "tag": "Fully automated",
+        "text": "Modular STP / ETP configurations with membrane polishing, PLC control and online instruments. Final process, equipment and automation are selected after site and water-quality assessment.",
+        "image": "img/automated-stp.jpg"
+      },
+      {
+        "title": "UF / RO Systems with PLC Control",
+        "category": "Automated",
+        "tag": "Fully automated",
+        "text": "Automatic sequencing, pressure and conductivity monitoring, low-pressure protection and configured cleaning cycles. Instrumentation and interlocks are defined for each installation.",
+        "image": "img/uf-ro-plc.jpg"
+      },
+      {
+        "title": "Single-package FRP ETP",
+        "category": "FRP Package",
+        "tag": "Industrial wastewater",
+        "text": "Integrated effluent treatment with equalization, chemical treatment, biological treatment, clarification, filtration and disinfection. Separate UF polishing can be added after media filtration. Process selected after effluent testing.",
+        "image": "img/frp-etp.jpg"
+      },
+      {
+        "title": "Single-package FRP STP",
+        "category": "FRP Package",
+        "tag": "Apartments · Hotels",
+        "text": "Integrated sewage treatment with screening, equalization, anoxic and aerobic (MBBR) treatment, clarification and polishing. Separate UF can be integrated before disinfection. For apartments, hotels, institutions and commercial facilities.",
+        "image": "img/frp-stp.jpg"
+      },
+      {
+        "title": "Single-package FRP WTP",
+        "category": "FRP Package",
+        "tag": "Surface & process water",
+        "text": "Compact package combining application-specific clarification, filtration, dosing and pumping for surface-water and process-water applications. Final configuration follows water analysis.",
+        "image": "img/frp-wtp.jpg"
+      },
+      {
+        "title": "Packaged Desalination Plant",
+        "category": "Membrane Skids",
+        "tag": "Seawater RO",
+        "text": "Seawater reverse osmosis with pretreatment, high-pressure pumping, membrane separation and control. Intake, product-water conditioning and brine management are engineered for the site.",
+        "image": "img/desal.jpg"
+      },
+      {
+        "title": "Standalone Ultrafiltration System",
+        "category": "Membrane Skids",
+        "tag": "UF skid",
+        "text": "Separate UF skid for suspended-solids removal and membrane-based water polishing, with automatic filtration and backwash sequences. Integrates after PSF / ACF and before RO or disinfection.",
+        "image": "img/uf-skid.jpg"
+      },
+      {
+        "title": "Standalone Reverse Osmosis System",
+        "category": "Membrane Skids",
+        "tag": "RO skid",
+        "text": "Separate RO skid for dissolved-salt reduction with cartridge prefiltration, high-pressure pump and membranes. Feed-water analysis determines pretreatment, recovery, membrane selection and cleaning.",
+        "image": "img/ro-skid.jpg"
+      }
+    ]
+  },
+  "method": {
+    "title": "How We Execute",
+    "subtitle": "Structured stages for transparent project coordination.",
+    "steps": [
+      {
+        "title": "Discover",
+        "text": "Site visit, production goals and design inputs."
+      },
+      {
+        "title": "Engineer",
+        "text": "Layout, balances, drawings and equipment specifications."
+      },
+      {
+        "title": "Source",
+        "text": "Supplier selection, inspection and logistics planning."
+      },
+      {
+        "title": "Build",
+        "text": "Civil, mechanical, piping and electrical integration."
+      },
+      {
+        "title": "Commission",
+        "text": "Trial runs, controls, utilities and performance checks."
+      },
+      {
+        "title": "Support",
+        "text": "Training, documentation and post-start-up coordination."
+      }
+    ]
+  },
+  "products": {
+    "title": "Products & Equipment",
+    "subtitle": "Pumps, aeration, filtration, membranes, instruments and spares — tap a category to see the range.",
+    "items": [
+      {
+        "name": "Pumps",
+        "image": "img/pumps.jpg",
+        "items": [
+          "Submersible pump",
+          "Centrifugal pump",
+          "Open-well pump",
+          "Screw pump",
+          "Pressure booster system",
+          "High-pressure pump"
+        ]
+      },
+      {
+        "name": "Air Blowers",
+        "image": "img/blowers.jpg",
+        "items": [
+          "Direct-drive air blower",
+          "Ring blower"
+        ]
+      },
+      {
+        "name": "Diffusers & Aeration",
+        "image": "img/diffusers.jpg",
+        "items": [
+          "Fine-bubble disc diffuser",
+          "Fine-bubble tube diffuser",
+          "Coarse-bubble diffuser",
+          "Jet aerator",
+          "Diffuser block",
+          "Retrievable diffuser system"
+        ]
+      },
+      {
+        "name": "Treatment Accessories",
+        "image": "img/accessories.jpg",
+        "items": [
+          "MBBR media",
+          "Tube settler media",
+          "FRP filter vessel",
+          "Multiport valve",
+          "Dosing tank",
+          "Dosing pump"
+        ]
+      },
+      {
+        "name": "Filtration Media",
+        "image": "img/media.jpg",
+        "items": [
+          "River gravel",
+          "Fine gravel",
+          "Pebble stone",
+          "Angular gravel",
+          "Natural & coarse sand",
+          "Ion exchange resin"
+        ]
+      },
+      {
+        "name": "Sludge Dewatering & Mixing",
+        "image": "img/dewatering.jpg",
+        "items": [
+          "Filter press",
+          "Screw press",
+          "Centrifuge",
+          "Agitators"
+        ]
+      },
+      {
+        "name": "Fabrication & Components",
+        "image": "img/fabrication.jpg",
+        "items": [
+          "MSEP filter",
+          "EP tank",
+          "PP tank",
+          "Bar screen",
+          "RO skid",
+          "FRP tank"
+        ]
+      },
+      {
+        "name": "Membranes & Filtration",
+        "image": "img/membranes.jpg",
+        "items": [
+          "DOW UF membrane",
+          "Grafil UF membrane",
+          "RO membrane",
+          "RO membrane housing",
+          "PP bag filter",
+          "PP cartridge filter",
+          "FRP housing",
+          "UV system"
+        ]
+      },
+      {
+        "name": "Instruments & Controls",
+        "image": "img/instruments.jpg",
+        "items": [
+          "Pressure gauge",
+          "Electromagnetic flow meter",
+          "Mechanical flow meter",
+          "Pressure switch",
+          "Rotameter",
+          "Online pH / TDS meter",
+          "Decant valve",
+          "Solenoid valve",
+          "Level transmitter",
+          "UF control panel"
+        ]
+      },
+      {
+        "name": "High-Purity Water Spares",
+        "image": "img/hp-spares.jpg",
+        "items": [
+          "HSRO membrane",
+          "EDI module",
+          "Temperature transmitter",
+          "Dosing pump",
+          "Diaphragm valve actuator",
+          "Zero dead-leg valve",
+          "Spray ball assembly",
+          "UV system"
+        ]
+      }
+    ]
+  },
+  "clients": {
+    "title": "Selected Client Relationships",
+    "subtitle": "Quality in the name. Trust in the relationship.",
+    "items": [
+      {
+        "name": "Pristine Acres",
+        "category": "Residential",
+        "sector": "Real estate",
+        "logo": ""
+      },
+      {
+        "name": "DLF Gardencity",
+        "category": "Residential",
+        "sector": "Real estate · OMR",
+        "logo": ""
+      },
+      {
+        "name": "XS Real",
+        "category": "Residential",
+        "sector": "Real estate",
+        "logo": ""
+      },
+      {
+        "name": "AMJ",
+        "category": "Institutional",
+        "sector": "Institution",
+        "logo": ""
+      },
+      {
+        "name": "Bhaarath Medical College",
+        "category": "Institutional",
+        "sector": "Healthcare · Selaiyur",
+        "logo": ""
+      },
+      {
+        "name": "Suguna Foods",
+        "category": "Food & Marine",
+        "sector": "Food processing",
+        "logo": ""
+      },
+      {
+        "name": "Gurunathan Aqua Products",
+        "category": "Food & Marine",
+        "sector": "Aquaculture",
+        "logo": ""
+      },
+      {
+        "name": "Sanjary / Sanchary Marine",
+        "category": "Food & Marine",
+        "sector": "Marine · Sayalkudi",
+        "logo": ""
+      },
+      {
+        "name": "Marble Valley Foods",
+        "category": "Food & Marine",
+        "sector": "Food processing",
+        "logo": ""
+      },
+      {
+        "name": "Jude Foods India",
+        "category": "Food & Marine",
+        "sector": "Seafood",
+        "logo": ""
+      },
+      {
+        "name": "Jeyam Traders",
+        "category": "Food & Marine",
+        "sector": "Trading",
+        "logo": ""
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Project enquiry",
+    "title": "Let us discuss your requirements",
+    "formTitle": "Start your next project",
+    "formSubtitle": "Share these inputs for a focused technical and commercial proposal.",
+    "epcEmail": "epcturnkeyprojects.se@gmail.com",
+    "epcNote": "Fish meal & fish oil plants, utilities and environmental systems",
+    "waterEmail": "shreeenterpriseswatercare@gmail.com",
+    "waterNote": "Treatment plants, revamping, maintenance and spares",
+    "person": "E. Selvakumar",
+    "role": "General Manager",
+    "phones": [
+      "+91 79045 49689",
+      "+91 95003 81520"
+    ],
+    "address": "SK Developers, Tejas Lake View Apartment, No. 5, Manthoppu Street, Siruseri, Chennai",
+    "whatsapp": "917904549689",
+    "city": "Siruseri, Chennai"
+  },
+  "footer": {
+    "about": "EPC turnkey projects and water & wastewater solutions — practical, reliable and cost-effective systems for industrial, commercial and residential applications.",
+    "tagline": "Engineering | Procurement | Construction",
+    "disclaimer": "Plant capacity and final configuration are defined through project-specific engineering."
+  }
+}
